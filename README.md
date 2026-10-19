@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="assets/do-monogram.svg" width="72" height="72" alt="Monograma DO de Dairon Orejuela" />
-</p>
-
-<p align="center">
-  <img src="assets/profile-banner.svg" width="100%" alt="Dairon Stiven Orejuela Palacios, desarrollo web e ingeniería de software" />
+  <img src="assets/profile-banner.svg" width="100%" alt="Monograma DS y nombre de Dairon Stiven Orejuela Palacios, desarrollo web e ingeniería de software" />
 </p>
 
 <p align="center">
