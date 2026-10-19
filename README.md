@@ -1,91 +1,92 @@
-<div align="center">
-
-<img src="assets/do-monogram.svg" width="92" height="92" alt="Monograma DO de Dairon Orejuela" />
-
-Dairon Stiven Orejuela Palacios
-<img src="assets/profile-banner.svg" width="100%" alt="Dairon Orejuela — Desarrollo web, interfaces y software" />
-
-<p>
-  <a href="https://daironstiven12.github.io/Portafolio/">
-    <img src="https://img.shields.io/badge/PORTAFOLIO-Visitar-167D4A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visitar portafolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/daironorejuela/">
-    <img src="https://img.shields.io/badge/LINKEDIN-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/daironstiven12">
-    <img src="https://img.shields.io/badge/GITHUB-Repositorios-20252B?style=for-the-badge&logo=github&logoColor=white" alt="Repositorios de GitHub" />
-  </a>
+<p align="center">
+  <img src="assets/do-monogram.svg" width="88" height="88" alt="Monograma DO de Dairon Orejuela" />
 </p>
 
-Desarrollo web · Interfaces digitales · Ingeniería de software
-</div>
+<p align="center">
+  <img src="assets/profile-banner.svg" width="100%" alt="Dairon Stiven Orejuela Palacios, desarrollo web e ingeniería de software" />
+</p>
 
-Sobre mí
+<p align="center">
+  Estudiante de Ingeniería de Telecomunicaciones e Informática en la UTCH y Tecnólogo en Desarrollo de Software del SENA.
+</p>
+
+<p align="center">
+  <a href="https://daironstiven12.github.io/Portafolio/">Portafolio</a> |
+  <a href="https://www.linkedin.com/in/daironorejuela/">LinkedIn</a> |
+  <a href="https://github.com/daironstiven12">GitHub</a>
+</p>
+
+## Sobre mí
+
 Soy estudiante de Ingeniería de Telecomunicaciones e Informática en la Universidad Tecnológica del Chocó (UTCH) y cuento con formación como Tecnólogo en Desarrollo de Software del SENA.
 
-Me interesa construir experiencias web claras, accesibles y útiles, combinando desarrollo frontend, diseño de interfaces y resolución práctica de problemas. Aprendo creando proyectos, explorando tecnologías y mejorando de forma continua.
-- Desarrollo interfaces con HTML, CSS y JavaScript.
-- Exploro frameworks frontend mediante proyectos prácticos.
-- Me interesa conectar buenas experiencias de usuario con soluciones de software funcionales.
-- Estoy ampliando mis conocimientos hacia el desarrollo full-stack.
-Tecnologías
-Base de desarrollo
+Me interesa el desarrollo web, el diseño de interfaces y la creación de soluciones digitales útiles. Sigo fortaleciendo mis habilidades con proyectos prácticos y aprendizaje constante.
+
+## Tecnologías y herramientas
+
+**Fundamentos**
+
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=222222" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
 </p>
 
-Frameworks explorados en proyectos
+**Frameworks que he explorado**
+
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" />
   <img src="https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
 </p>
 
-React, Angular y Vue se presentan como tecnologías exploradas mediante proyectos, no como una declaración de dominio avanzado.
+Cada uno tiene un proyecto propio en la sección de proyectos.
 
-En aprendizaje
-Actualmente quiero seguir fortaleciendo mis bases de arquitectura de aplicaciones, consumo de APIs, backend, bases de datos, despliegue y uso responsable de herramientas de inteligencia artificial para el desarrollo.
-Proyectos seleccionados
-<div align="center">
+**Siguiente paso**
 
-<a href="https://github.com/daironstiven12/React">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=daironstiven12&repo=React&theme=transparent&hide_border=true" alt="Repositorio React" />
-</a>
-<a href="https://github.com/daironstiven12/1-Angular">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=daironstiven12&repo=1-Angular&theme=transparent&hide_border=true" alt="Repositorio 1-Angular" />
-</a>
-<a href="https://github.com/daironstiven12/Vue">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=daironstiven12&repo=Vue&theme=transparent&hide_border=true" alt="Repositorio Vue" />
-</a>
+Node.js y bases de datos, para completar el desarrollo full-stack.
 
-</div>
+## Proyectos seleccionados
 
-Estos repositorios reúnen ejercicios y proyectos prácticos para explorar diferentes enfoques del desarrollo frontend. Consulta cada README para conocer su alcance, implementación e instrucciones de ejecución.
+### [DsMovie (1-Angular)](https://github.com/daironstiven12/1-Angular)
 
-Ver todos mis proyectos: github.com/daironstiven12
-Mi actividad en GitHub
-<div align="center">
+Aplicación web de una sola página estilo Netflix, creada con Angular como proyecto de aprendizaje. Consume la API pública de TVMaze y permite explorar series, buscarlas por nombre, ver su detalle y guardar favoritos en el navegador.
 
-<img src="https://github-readme-stats.vercel.app/api?username=daironstiven12&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" height="165" alt="Estadísticas públicas de GitHub" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daironstiven12&layout=compact&hide_border=true&theme=transparent&langs_count=6" height="165" alt="Lenguajes detectados en repositorios públicos" />
+`Angular 21` `TypeScript` `RxJS` `CSS`
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=daironstiven12&theme=github-compact&hide_border=true&area=true" width="100%" alt="Gráfico de actividad de GitHub" />
+### [DevCode Academy (Vue)](https://github.com/daironstiven12/Vue)
 
-</div>
+Landing page para una academia de programación, construida con Vue 3 y Vite. Tiene nueve secciones, diseño oscuro y adaptable a móvil, y un formulario de contacto con validación. Los estilos son CSS propio, sin librerías de interfaz.
 
-<sub>Las estadísticas dependen de servicios externos y de los datos públicos disponibles; pueden tardar en actualizarse o no mostrarse temporalmente.</sub>
-Conectemos
-Si te interesa el desarrollo web, la creación de productos digitales o compartir ideas y aprendizajes, puedes encontrarme aquí:
+`Vue 3` `Vite` `JavaScript` `CSS`
+
+### [Enrutamiento con React (React)](https://github.com/daironstiven12/React)
+
+Proyecto de práctica sobre enrutamiento en React con React Router, creado con Vite y React-Bootstrap.
+
+`React 19` `React Router 7` `Vite` `React-Bootstrap`
+
+## Actividad y estadísticas
+
 <p align="center">
-  <a href="https://daironstiven12.github.io/Portafolio/">Portafolio</a> ·
-  <a href="https://www.linkedin.com/in/daironorejuela/">LinkedIn</a> ·
-  <a href="https://github.com/daironstiven12">GitHub</a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=daironstiven12&amp;show_icons=true&amp;hide_border=true&amp;locale=es&amp;bg_color=0D1117&amp;title_color=0A9BFF&amp;text_color=D1D5DB&amp;icon_color=0A9BFF" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=daironstiven12&amp;show_icons=true&amp;hide_border=true&amp;locale=es&amp;bg_color=FFFFFF&amp;title_color=095FCF&amp;text_color=374151&amp;icon_color=0A84E6" alt="Estadísticas públicas de GitHub de daironstiven12" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=daironstiven12&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;locale=es&amp;bg_color=0D1117&amp;title_color=0A9BFF&amp;text_color=D1D5DB" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daironstiven12&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;locale=es&amp;bg_color=FFFFFF&amp;title_color=095FCF&amp;text_color=374151" alt="Lenguajes más usados en los repositorios públicos de daironstiven12" />
+  </picture>
 </p>
 
-<div align="center">
-  <sub>Aprender construyendo. Mejorar iterando. Compartir lo que funciona.</sub>
-</div>
+## Contacto
+
+Si quieres colaborar, conversar sobre un proyecto o conocerme mejor, estos son los canales:
+
+- [LinkedIn](https://www.linkedin.com/in/daironorejuela/)
+- [Portafolio](https://daironstiven12.github.io/Portafolio/)
+- [GitHub](https://github.com/daironstiven12)
