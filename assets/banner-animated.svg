@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">Dairon Stiven Orejuela Palacios</title>
+  <desc id="d">Banner animado: desarrollo web e ingeniería de software</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#0B2540"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0A9BFF"/>
+      <stop offset="0.5" stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#00E0B8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A9BFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0A9BFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7C5CFF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0A9BFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#0A9BFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1F6FEB" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <clipPath id="nameClip">
+      <rect x="70" y="80" width="0" height="80">
+        <animate attributeName="width" from="0" to="900" begin="0.4s" dur="2.4s" fill="freeze" calcMode="linear"/>
+      </rect>
+    </clipPath>
+    <clipPath id="roleClip">
+      <rect x="70" y="175" width="0" height="50">
+        <animate attributeName="width" from="0" to="700" begin="3s" dur="2.2s" fill="freeze" calcMode="linear"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;40 40" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- luz ambiental -->
+  <circle cx="980" cy="140" r="220" fill="url(#glow)">
+    <animate attributeName="r" values="200;240;200" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- partículas -->
+  <g fill="#0A9BFF">
+    <circle cx="120" cy="270" r="2.5" opacity="0"><animate attributeName="cy" values="280;40" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="290" r="1.8" opacity="0"><animate attributeName="cy" values="300;60" dur="9s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="9s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="410" cy="280" r="3" opacity="0"><animate attributeName="cy" values="290;30" dur="8s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="8s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="295" r="2" opacity="0"><animate attributeName="cy" values="300;50" dur="10s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="285" r="2.6" opacity="0"><animate attributeName="cy" values="295;40" dur="7.5s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="7.5s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="290" r="1.6" opacity="0"><animate attributeName="cy" values="300;50" dur="9.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1090" cy="285" r="2.2" opacity="0"><animate attributeName="cy" values="295;35" dur="8.5s" begin="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="8.5s" begin="2.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- icono </> flotante -->
+  <g transform="translate(980 140)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 -8;0 8;0 -8" dur="5s" repeatCount="indefinite"/>
+      <circle r="92" fill="none" stroke="#0A9BFF" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="6 10">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="72" fill="none" stroke="#7C5CFF" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="40 14">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="16s" repeatCount="indefinite"/>
+      </circle>
+      <g fill="none" stroke="url(#accent)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M-22 -26 L-50 0 L-22 26"/>
+        <path d="M22 -26 L50 0 L22 26"/>
+        <path d="M8 -34 L-8 34"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- etiqueta superior -->
+  <text x="70" y="58" font-family="'Courier New', Consolas, monospace" font-size="18" fill="#0A9BFF" opacity="0">
+    &gt; hola, mundo_
+    <animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.6s" fill="freeze"/>
+  </text>
+
+  <!-- nombre (efecto máquina de escribir) -->
+  <g clip-path="url(#nameClip)">
+    <text x="70" y="140" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#FFFFFF" textLength="880" lengthAdjust="spacingAndGlyphs">Dairon Stiven Orejuela Palacios</text>
+  </g>
+  <rect x="70" y="95" width="4" height="56" fill="#0A9BFF">
+    <animate attributeName="x" from="70" to="950" begin="0.4s" dur="2.4s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    <set attributeName="display" to="none" begin="3s"/>
+  </rect>
+
+  <!-- rol -->
+  <g clip-path="url(#roleClip)">
+    <text x="70" y="208" font-family="'Courier New', Consolas, monospace" font-size="26" fill="url(#accent)" textLength="690" lengthAdjust="spacingAndGlyphs">Desarrollo web · Interfaces · IA y automatización</text>
+  </g>
+  <rect x="70" y="186" width="3" height="30" fill="#00E0B8" display="none">
+    <set attributeName="display" to="inline" begin="3s"/>
+    <animate attributeName="x" from="70" to="760" begin="3s" dur="2.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- línea de estudios -->
+  <text x="70" y="252" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#9CA3AF" opacity="0">
+    Ingeniería de Telecomunicaciones e Informática · UTCH  |  Tecnólogo en Desarrollo de Software · SENA
+    <animate attributeName="opacity" from="0" to="1" begin="5.4s" dur="1s" fill="freeze"/>
+  </text>
+
+  <!-- olas inferiores -->
+  <g>
+    <path d="M0 270 q150 -40 300 0 t300 0 t300 0 t300 0 t300 0 t300 0 t300 0 t300 0 V320 H0 Z" fill="url(#waveB)">
+      <animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="14s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 285 q150 -34 300 0 t300 0 t300 0 t300 0 t300 0 t300 0 t300 0 t300 0 V320 H0 Z" fill="url(#waveA)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="10s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- borde inferior brillante -->
+  <rect x="0" y="316" width="1200" height="4" fill="url(#accent)"/>
+</svg>
